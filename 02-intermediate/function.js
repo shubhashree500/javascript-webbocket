@@ -1,46 +1,3 @@
-// function:- its a block of code designed to perform a perticular task. a javascript function is executed when something invoked it(call it)
-
-// ex1
-
-// function sayname()
-// {
-//     console.log("G");
-//     console.log("I");
-//     console.log("F");
-//     console.log("T");
-// }
-// sayname();
-
-// sayname is reference but () is execution.
-
-// ex2
-
-// function addTwoNumber(number1, number2)
-// {
-//     console.log(number1 + number2)
-// }
-
-
-// ex3
-// function addTwoNumber1(number1, number2)
-// {
-//     let result= number1 + number2;
-//     return result;
-// }
-// const result = addTwoNumber1(3,5);
-// console.log("result:", result);
-
-// ex4
-// function loginUserMessage(username){
-//     return `${username}just `
-// }
-// console.log(loginUserMessage());
-
-
-
-
-
-
 /*
 Function:-
 definition:=A javaScript function is a block of code designed to perform a particular task. 
@@ -107,7 +64,7 @@ definition:=A javaScript function is a block of code designed to perform a parti
 // }
 // console.log(calculatePrice(200,300,400));
 
-const user={
+const user = {
     username : "gift",
     price : 400,
     location : "Khordha"
