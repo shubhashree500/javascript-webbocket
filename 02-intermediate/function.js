@@ -66,6 +66,7 @@ definition:=A javaScript function is a block of code designed to perform a parti
 
 const user = {
     username : "gift",
+    
     price : 400,
     location : "Khordha"
 }
