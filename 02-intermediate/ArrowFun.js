@@ -1,4 +1,3 @@
-
 /* 
     Arrow function:- 
     **In ES6 major update had done.It changes the old syntax of function declaration and tried to reduce the length of a code.
