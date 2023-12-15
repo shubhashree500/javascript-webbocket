@@ -1,0 +1,19 @@
+<!DOCTYPE>
+    <head>
+        <title>Small Project</title>
+    </head>
+    <body>
+        <button style="background-color: antiquewhite; color: beige; padding:20px;">change color</button>
+    </body>
+    <script>
+        const btn = document.querySelector("button");
+        function random(number){
+            return Math.floor(Math.random()*(number + 1));
+        }
+        btn.addEventListener("click",() =>{
+            const randomColor = `rgb(${random(255)},${random(255)},${random(255)})`;
+        })
+        document.body.style.backgroundColor = randomColor;
+        </script>
+</html>
+<!-- javascript is synchronous and single threaded -->
